@@ -1,0 +1,17 @@
+.menu{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    color: brown;
+}
+.menu:hover{
+background-color:aquamarine;
+color: blue;
+}
+.img{
+    width: 250px;
+    height: 185px;    
+}

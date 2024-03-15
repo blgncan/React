@@ -1,0 +1,17 @@
+import React from 'react'
+import '../assets/css/style.css'
+
+function Menu() {
+  return (
+    <div>
+    <ul className='menu'>
+      <li><a href="">Home Page | </a></li>
+      <li><a href=""> About Us | </a></li>
+      <li><a href=""> Products | </a></li>
+      <li><a href="">Contact | </a></li>
+  </ul>
+    </div>
+  )
+}
+
+export default Menu

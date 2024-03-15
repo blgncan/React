@@ -1,0 +1,183 @@
+$menu-background-color: #d09942;
+$menu-item-hover-color: #555;
+$menu-item-color: white;
+$menu-item-padding: 14px 16px;
+
+
+
+
+.header {
+  margin: 5px auto;
+  width: 79%;
+
+  background-color: rgb(221, 220, 212);
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px;
+
+  .logo {
+    height: 3.5em;
+    padding-top: 5px;
+    margin-left: 20px;
+
+    // background-color: aqua;
+    margin-right: auto;
+    width: 20%;
+
+  }
+
+  .nav-menu {
+    float: right;
+    width: 75%;
+    margin-left: auto;
+    height: auto;
+
+    //background-color: burlywood;
+    .menu {
+      background-color: $menu-background-color;
+      /* Menü arka plan rengi */
+      float: right;
+      margin-right: 20px;
+      margin-top: 3px;
+
+      ul {
+        list-style-type: none;
+        /* Liste işaretlerini kaldır */
+        margin: 0;
+        padding: 0;
+
+        li {
+          display: inline;
+          /* Li elemanlarını yatay olarak yerleştir */
+          margin-left: 2rem;
+
+          a {
+            display: inline-block;
+            /* A etiketlerini blok öğeler olarak ayarla */
+            color: $menu-item-color;
+            /* Menü metin rengi */
+            padding: $menu-item-padding;
+            /* Padding ayarla */
+            text-decoration: none;
+            /* Link altı çizgisini kaldır */
+
+            &:hover {
+              background-color: $menu-item-hover-color;
+              /* Fare üzerine geldiğinde arka plan rengi */
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+.container2 {
+  margin: 0 auto;
+  width: 80%;
+
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  padding: 5px 10px;
+
+  .LeftBar {
+    width: 100%;
+
+
+
+    .left-panel {
+      width: 20%;
+      /* Sol panelin container içindeki genişliği */
+      float: left;
+      /* Sola hizala */
+      // background-color: blueviolet;
+      margin-top: 10px;
+      height: auto;
+      border-radius: 20px;
+
+    }
+
+    .content {
+      width: 79%;
+      float: right;
+      // background-color: crimson;
+      margin-top: 10px;
+      height: auto;
+      border-radius: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+
+  }
+
+
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 5px auto;
+  width: 79%;
+
+  background-color: rgb(221, 220, 212);
+  height: auto;
+  border-radius: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+
+  .Menumuz {
+    ul {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        margin-right: 20px;
+        a{
+          text-decoration: none;
+          color: brown;
+          &:hover {
+            color: rgb(56, 81, 227);
+          }
+        }
+      }
+    }
+  }
+
+  .footer_copyright {
+    margin-top: 10px;
+    text-align: center;
+    color: brown;
+    padding: 15px;
+  }
+}
+
+.card-body2 {
+  display: flex;
+
+  .card-text2 {
+    flex-grow: 1;
+    height: auto;
+  }
+
+  .card-image {
+    margin-left: 20px; 
+    height: auto;
+    padding-top: 20px;
+    padding-right: 10px;
+
+    img {
+      max-width: 100%; // Resmi kartın genişliğine sığacak şekilde ayarlayın
+    }
+  }
+}
+

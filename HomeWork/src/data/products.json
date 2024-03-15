@@ -1,0 +1,60 @@
+
+     [
+      {
+        "id": 1,
+        "title": "iPhone 9",
+        "description": "An apple mobile which is nothing like apple",
+        "price": 549,        
+        "brand": "Apple",       
+        "images":    "./public/img/2.png"
+          
+        
+      },
+      {
+        "id": 2,
+        "title": "iPhone X",
+        "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD",
+        "price": 899,       
+        "brand": "Apple",       
+        "images":    "./public/img/3.png"
+         
+        
+      },
+      {
+        "id": 3,
+        "title": "Samsung Galaxi S9",
+        "description": "Samsung's new variant which goes beyond Galaxy",
+        "price": 1249,       
+        "brand": "Samsung",       
+        "images":    "./public/img/1.png"
+       
+      },
+      {
+        "id": 4,
+        "title": "OPPOF19",
+        "description": "OPPO F19 is officially announced on April 2021.",
+        "price": 280,      
+        "brand": "OPPO",       
+        "images":    "./public/img/4.jpg"         
+       
+      },
+      {
+        "id": 5,
+        "title": "HUAWEI MateBook D16 i9 2024",
+        "description": "Huawei’s re-badged P30 Pro New Edition was officially",
+        "price": 499,       
+        "brand": "Huawei",       
+        "images": "./public/img/5.jpg"         
+        
+      },
+      {
+        "id": 6,
+        "title": "MacBook Pro",
+        "description": "MacBook Pro 2021 with mini-LED display may launch",
+        "price": 1749,        
+        "brand": "Apple",       
+        "images":  "./public/img/6.png"      
+       
+      }     
+    ]
+  

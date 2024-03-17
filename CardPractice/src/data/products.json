@@ -1,0 +1,88 @@
+
+[
+      {
+        "id": 1,
+        "title": "Man's Coat",
+        "description": "Man's Coat",
+        "price": 85,
+        "discountPercentage": "",
+        "rating": 4,        
+        "images": "../public/img/coat.jpeg"         
+        
+      },
+      {
+        "id": 2,
+        "title": "Slim Fit Shirt",
+        "description": "Slim Fit Shirt",
+        "price": 63,
+        "discountPercentage": 17,
+        "rating": 3,        
+        "images":  "../public/img/shirt.jpeg"
+         
+        
+      },
+      {
+        "id": 3,
+        "title": "Men's Tracksuit",
+        "description": "Men's Tracksuit",
+        "price": 130,
+        "discountPercentage": 15,
+        "rating": 1,        
+        "images": "../public/img/tracksuit.jpeg"
+        
+      },
+      {
+        "id": 4,
+        "title": "Men's Sweater",
+        "description": "Men's Sweater",
+        "price": 58,
+        "discountPercentage": "",
+        "rating": 3,        
+        "images":"../public/img/jumper.jpg"         
+        
+      },
+      {
+        "id": 5,
+        "title": "Men's Capri and Tshirt",
+        "description": "Men's Capri and Tshirt",
+        "price": 45,
+        "discountPercentage": 10,
+        "rating": 2,        
+        "images": "../public/img/tshirt.jpeg"        
+        
+      },
+      {
+        "id": 6,
+        "title": "White Men's Sweater",
+        "description": "White Men's Sweater",
+        "price": 75,
+        "discountPercentage": 11,
+        "rating": 4,        
+        "images":"../public/img/jumper2.jpeg"         
+        
+      },
+
+
+      {
+        "id": 7,
+        "title": "Seasonal Women's Sweater",
+        "description": "White Women Sweater",
+        "price": 77,
+        "discountPercentage": 8,
+        "rating": 3,        
+        "images":"../public/img/womensweater.jpg"         
+        
+      },
+      {
+        "id": 8,
+        "title": "Black Women's Dress",
+        "description": "Black Women's Dress",
+        "price": 90,
+        "discountPercentage": "",
+        "rating": 2,        
+        "images":"../public/img/womensuit.jpg"         
+        
+      }
+      
+    ]
+   

@@ -1,0 +1,12 @@
+.card-container {
+  display: flex;  
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 auto; /* Kartların esnekliğini sağlar */
+}
+.card img{
+  width:100%;
+  height: auto;
+}
